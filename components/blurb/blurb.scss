@@ -1,0 +1,47 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../base/mixins";
+
+
+// Base
+.blurb-icon {
+	font-size: $font-size-base * 2;
+	color: $primary;
+}
+
+// Modifying
+.blurb-hover {
+	.blurb-icon {
+		transition: $transition-base;
+	}
+
+	&:hover {
+		.blurb-icon {
+			transform: scale( 1.1 );
+		}
+	}
+}
+
+
+// Spacing
+* + .blurb-title { margin-top: px-to-rem( 31px * $xs-multiplier ) }
+* + .blurb-text { margin-top: px-to-rem( 19px * $xs-multiplier ) }
+
+
+// Media
+@include media-breakpoint-up( lg ) {
+	* + .blurb-title { margin-top: px-to-rem( 31px * $lg-multiplier ) }
+	* + .blurb-text { margin-top: px-to-rem( 19px * $lg-multiplier ) }
+}
+
+@include media-breakpoint-up( xxl ) {
+	* + .blurb-title { margin-top: px-to-rem( 31px ) }
+	* + .blurb-text { margin-top: px-to-rem( 19px ) }
+}
+
+
+// Layouts
+@import 'blurb-side';

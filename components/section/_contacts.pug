@@ -1,0 +1,50 @@
+include ../blurb/_blurb
+include ../input/_input
+
+// Contacts
+section#contacts.section-md.bg-100
+	.container
+		.row.row-30.justify-content-center
+			.col-sm-10.col-md-6
+				h2 Sign Up for an Appointment with the Doctor Today!
+				p Take some time to fill out the form and get an appointment with an experienced family doctor.
+				.divider
+				h6 2965  Pine Garden Ln. Nelson, GA 30107
+				+blurb-side({
+					iconClass: 'mdi-phone',
+					title: '+1 (800) 925-63-24',
+					text: 'Call Now and Get a FREE Consultation'
+				})
+				ul.list
+					li.list-item Monday – Friday: 07:00am – 10:00pm
+					li.list-item ​​Saturday – Sunday: 08:00am – 08:00pm
+				a.link.link-underline.link-underline-1( href='mailto:#' ) info@demolink.org
+				.social
+					a.icon.icon-md.icon-link.icon-dark.mdi-facebook( href="#" )
+					a.icon.icon-md.icon-link.icon-dark.mdi-instagram( href="#" )
+					a.icon.icon-md.icon-link.icon-dark.mdi-youtube-play( href="#" )
+					a.icon.icon-md.icon-link.icon-dark.mdi-twitter( href="#" )
+
+			.col-sm-10.col-md-6
+				.form-box
+					h2 Make an Appointment
+					form.rd-form.rd-mailform( data-form-output='contact-form', data-form-type='contact', method='post', action='components/rd-mailform/rd-mailform.php' )
+						.form-wrap
+							label.form-label( for="input-name" ) Your name*
+							.form-group
+								input#input-name.form-control( type='text', name='name', placeholder='Please enter your name', data-constraints='@Required' )
+						.form-wrap
+							label.form-label( for="input-phone" ) Your phone*
+							.form-group
+								input#input-phone.form-control( type='text', name='phone', placeholder='Please enter your phone number', data-constraints='@Numeric @Required' )
+						.form-wrap
+							label.form-label( for="input-message" ) Your message*
+							.form-group
+								textarea#input-message.form-control( name='textarea', placeholder='Please enter your message', data-constraints='@Required' )
+						+checkbox()
+							span= "I agree to the "
+							a.link.link-dark.link-underline( href='#' ) Terms & Privacy Policy
+							span= ". I also agree that I’m over 18 years of age."
+						.rd-form-btn.text-left
+							button.btn.btn-lg.btn-block( type='submit' ) Submit
+					#contact-form.form-output.snackbar.snackbar-primary

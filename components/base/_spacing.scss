@@ -1,0 +1,177 @@
+/** @section Spacing*/
+// Elements
+* + p {
+	margin-top: px-to-rem( 15px );
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h6 {
+	margin-top: px-to-rem( 20px );
+}
+
+* + h5 {
+	margin-top: px-to-rem( 16px );
+}
+
+h1 + h3,
+h2 + h3 {
+	margin-top: px-to-rem( 21px * $xs-multiplier );
+}
+
+* + img,
+* + figure {
+	margin-top: px-to-rem( 30px );
+}
+
+* + form {
+	margin-top: px-to-rem( 30px );
+}
+
+// Heading + p
+h1 + p {
+	margin-top: px-to-rem( 10px );
+}
+
+h2 + p {
+	margin-top: px-to-rem( 20px * $xs-multiplier );
+}
+
+h3 + p  {
+	margin-top: px-to-rem( 39px * $xs-multiplier );
+}
+
+h4 + p  {
+	margin-top: px-to-rem( 8px );
+}
+
+h5 + p  {
+	margin-top: px-to-rem( 7px );
+}
+
+h6 + p {
+	margin-top: px-to-rem( 6px );
+}
+
+// P + heading
+p + h2 {
+	margin-top: px-to-rem( 28px );
+}
+
+p + h3 {
+	margin-top: px-to-rem( 28px );
+}
+
+p + h4 {
+	margin-top: px-to-rem( 20px );
+}
+
+p + h5 {
+	margin-top: px-to-rem( 20px );
+}
+
+p + h6 {
+	margin-top: px-to-rem( 18px );
+}
+
+* + address {
+	margin-top: 16px;
+}
+
+
+// Media
+@include media-breakpoint-up( lg ) {
+	// Elements spacing
+	* + p {
+		margin-top: px-to-rem( 20px );
+	}
+
+	* + h1,
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h6 {
+		margin-top: px-to-rem( 25px );
+	}
+
+	h1 + h3,
+	h2 + h3 {
+		margin-top: px-to-rem( 21px * $lg-multiplier );
+	}
+
+	// Heading + p
+	h1 + p {
+		margin-top: px-to-rem( 15px );
+	}
+
+	h2 + p {
+		margin-top: px-to-rem( 20px * $lg-multiplier );
+	}
+
+	h3 + p  {
+		margin-top: px-to-rem( 39px * $lg-multiplier );
+	}
+
+	h4 + p  {
+		margin-top: px-to-rem( 12px );
+	}
+
+	h5 + p  {
+		margin-top: px-to-rem( 12px );
+	}
+
+	h6 + p {
+		margin-top: px-to-rem( 10px );
+	}
+
+	// P + heading
+	p + h2 {
+		margin-top: px-to-rem( 32px );
+	}
+
+	p + h3 {
+		margin-top: px-to-rem( 28px );
+	}
+
+	p + h4 {
+		margin-top: px-to-rem( 26px );
+	}
+
+	p + h5 {
+		margin-top: px-to-rem( 24px );
+	}
+
+	p + h6 {
+		margin-top: px-to-rem( 24px );
+	}
+}
+
+@include media-breakpoint-up( xxl ) {
+	h2 + p  {
+		margin-top: px-to-rem( 20px );
+	}
+
+	h3 + p  {
+		margin-top: px-to-rem( 39px );
+	}
+
+	h1 + h3,
+	h2 + h3 {
+		margin-top: px-to-rem( 21px );
+	}
+}
+
+// Spacers
+* + .offset-xxs {
+	margin-top: px-to-rem( 20px );
+}
+
+
+// Group spacing
+html {
+	.group-30 {
+		@include group( px-to-rem( 30px ) );
+	}
+}

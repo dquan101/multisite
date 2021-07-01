@@ -1,0 +1,35 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../base/mixins";
+@import "../bootstrap/scss/mixins";
+
+
+// Base
+.icon {
+	display: inline-flex;
+	line-height: 1;
+}
+
+
+// Sizes
+.icon-md {
+	font-size: px-to-rem( 35px );
+}
+
+// Theme
+.icon-dark {
+	color: $dark;
+}
+
+// Icon link
+.icon-link {
+	transition: $transition-base;
+
+	&.icon-dark {
+		&:hover {
+			color: $primary;
+		}
+	}
+}

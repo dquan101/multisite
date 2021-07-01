@@ -1,0 +1,92 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../base/mixins";
+
+
+// Base
+.book {
+	padding: px-to-rem( 35px, 25px );
+	background-color: $gray-100;
+	border-left: 2px solid $dark;
+}
+
+.book-value {
+	color: $dark;
+	font-weight: 600;
+}
+
+html .book-btn {
+	border-radius: inherit;
+}
+
+// Spacing
+.book {
+	> * + * {
+		margin-top: px-to-rem( 15px );
+	}
+}
+
+* + .book {
+	margin-top: px-to-rem( 42px * $xs-multiplier );
+}
+
+// Context
+.bg-100 {
+	.book {
+		background-color: $white;
+	}
+}
+
+
+// Media
+@include media-breakpoint-up( md ) {
+	.book {
+		display: flex;
+		align-items: center;
+		padding: 0;
+	}
+
+	.book-title {
+		width: 40%;
+		padding: px-to-rem( 23px, 27px );
+	}
+
+	.book-value {
+		flex-grow: 1;
+		padding: px-to-rem( 23px, 18px );
+	}
+
+	html .book-btn {
+		margin-top: 0;
+		display: flex;
+		align-items: center;
+		align-self: stretch;
+		padding-left: px-to-rem( 38px );
+		padding-right: px-to-rem( 38px );
+	}
+
+	.book {
+		> * + * {
+			margin-top: 0;
+		}
+	}
+}
+
+@include media-breakpoint-up( lg ) {
+	.book-title {
+		width: 50%;
+	}
+
+	* + .book {
+		margin-top: px-to-rem( 42px * $lg-multiplier );
+	}
+}
+
+@include media-breakpoint-up( xxl ) {
+	* + .book {
+		margin-top: px-to-rem( 42px );
+	}
+}

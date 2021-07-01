@@ -1,0 +1,92 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins/breakpoints";
+@import "../bootstrap/scss/mixins/grid-framework";
+@import "../bootstrap/scss/mixins/grid";
+@import "../bootstrap/scss/grid";
+@import "grid-spacing";
+
+// Base
+.container {
+	padding-left: px-to-rem( 15px );
+	padding-right: px-to-rem( 15px );
+}
+
+.row {
+	margin-left: px-to-rem( -15px );
+	margin-right: px-to-rem( -15px );
+}
+
+[class*='col-'] {
+	padding-left: px-to-rem( 15px );
+	padding-right: px-to-rem( 15px );
+}
+
+.row-10 {
+	@include grid-spacing( 10px );
+}
+
+.row-20 {
+	@include grid-spacing( px-to-rem( 20px ) );
+}
+
+.row-30 {
+	@include grid-spacing( px-to-rem( 30px ) );
+}
+
+
+// Spacing
+* + .row {
+	margin-top: px-to-rem( 40px );
+}
+
+h2 + .row {
+	margin-top: px-to-rem( 58px * $lg-multiplier );
+}
+
+* + .row-content {
+	margin-top: px-to-rem( 25px );
+}
+
+.row-content + .row-content {
+	margin-top: px-to-rem( 23px * $lg-multiplier );
+}
+
+
+// Media
+@include media-breakpoint-up( lg ) {
+	.container {
+		padding-left: $grid-gutter-width/2;
+		padding-right: $grid-gutter-width/2;
+	}
+
+	.row {
+		margin-left: -$grid-gutter-width/2;
+		margin-right: -$grid-gutter-width/2;
+	}
+
+	[class*='col-'] {
+		padding-left: $grid-gutter-width/2;
+		padding-right: $grid-gutter-width/2;
+	}
+
+	h2 + .row {
+		margin-top: px-to-rem( 58px * $lg-multiplier );
+	}
+
+	.row-content + .row-content {
+		margin-top: px-to-rem( 23px * $lg-multiplier );
+	}
+}
+
+@include media-breakpoint-up( xxl ) {
+	h2 + .row {
+		margin-top: px-to-rem( 58px );
+	}
+
+	.row-content + .row-content {
+		margin-top: px-to-rem( 23px );
+	}
+}

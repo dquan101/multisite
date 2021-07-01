@@ -1,0 +1,78 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+@import "../base/mixins";
+
+// Mixins
+// Quote author side
+@mixin quote-author-side {
+	.quote-author {
+		display: flex;
+		align-items: center;
+
+		.quote-author-img {
+			flex-shrink: 0;
+			max-width: 40%;
+		}
+
+		.quote-author-body {
+			padding-top: 0;
+			padding-left: px-to-rem( 22px );
+		}
+	}
+}
+
+
+// Base
+.quote {
+	position: relative;
+	padding: px-to-rem( 30px, 20px );
+	border: 1px solid $gray-300;
+	@include quote-author-side;
+
+	q, cite {
+		display: block;
+	}
+}
+
+.quote-author-img {
+	border-radius: 50%;
+}
+
+.quote-cite {
+	font-weight: 500;
+	color: $dark;
+}
+
+.quote-text {
+	font-weight: $font-weight-base;
+}
+
+
+// Spacing
+* + .quote { margin-top: px-to-rem( 30px ) }
+* + .quote-text { margin-top: px-to-rem( 30px * $xs-multiplier ) }
+* + .quote-cite { margin-top: px-to-rem( 10px * $xs-multiplier ) }
+
+
+// Media
+@include media-breakpoint-up( lg ) {
+	.quote {
+		padding: px-to-rem( 39px * $lg-multiplier, 38px * $lg-multiplier );
+	}
+
+	* + .quote { margin-top: px-to-rem( 50px ) }
+	* + .quote-text { margin-top: px-to-rem( 30px * $lg-multiplier ) }
+	* + .quote-cite { margin-top: px-to-rem( 10px * $lg-multiplier ) }
+}
+
+@include media-breakpoint-up( xxl ) {
+	.quote {
+		padding: px-to-rem( 39px, 38px );
+	}
+
+	* + .quote-text { margin-top: px-to-rem( 30px ) }
+	* + .quote-cite { margin-top: px-to-rem( 10px ) }
+}

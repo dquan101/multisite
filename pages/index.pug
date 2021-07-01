@@ -1,0 +1,16 @@
+extends ../components/base/_skeleton
+include ../components/rd-navbar/_rd-navbar
+
+block variables
+	- pageName = 'Home';
+
+block page
+	+rd-navbar
+
+	include ../components/section/_person
+	include ../components/section/_blurb
+	include ../components/section/_about-1
+	include ../components/section/_accordions
+	include ../components/section/_blockquotes
+	include ../components/section/_contacts
+	include ../components/section/_map

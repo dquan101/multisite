@@ -1,0 +1,13 @@
+//- Book
+	@param {object} data - data object
+	@param {string} data.iconClass - class for icon
+	@param {string} data.title - book title
+	@param {string} [data.text] - book text
+mixin book( data )
+	// Book
+	.book&attributes( attributes )
+		.book-title= data.title
+		.book-value= data.value
+		button.btn.btn-primary.book-btn( data-custom-scroll-to='contacts' )
+			span.btn-icon.mdi-book-open
+			span Make an Appointment
