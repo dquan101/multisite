@@ -1,0 +1,36 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../base/mixins";
+@import "../bootstrap/scss/mixins";
+
+
+// Base
+.form-box {
+	padding: px-to-rem( 35px, 20px );
+	background-color: $gray-100;
+}
+
+
+// Context
+.bg-100 {
+	.form-box {
+		background-color: $white;
+	}
+}
+
+
+// Media
+@include media-breakpoint-up( sm ) {
+	.form-box {
+		padding: px-to-rem( 40px, 41px );
+	}
+}
+
+@include media-breakpoint-up( xxl ) {
+	.form-box {
+		margin-left: px-to-rem( 40px );
+		padding: px-to-rem( 40px, 41px );
+	}
+}

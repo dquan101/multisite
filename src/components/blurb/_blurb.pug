@@ -1,0 +1,28 @@
+//- Blurb
+	@param {object} data - data object
+	@param {string} data.iconClass - class for icon
+	@param {string} data.title - blurb title
+	@param {string} [data.text] - blurb text
+mixin blurb( data )
+	// Blurb
+	article.blurb&attributes( attributes )
+		if ( block )
+			.icon.blurb-icon
+				block
+		.blurb-title.h3= data.title
+		if( data.text )
+			.blurb-text= data.text
+
+//- Blurb side
+	@param {object} data - data object
+	@param {string} data.iconClass - class for icon
+	@param {string} data.title - blurb title
+	@param {string} [data.text] - blurb text
+mixin blurb-side( data )
+	// Blurb
+	article.blurb.blurb-side&attributes( attributes )
+		.blurb-item
+			.icon.blurb-icon( class= data.iconClass )
+		.blurb-body
+			.blurb-title.h2: a(href='tel:#')= data.title
+			.blurb-text= data.text

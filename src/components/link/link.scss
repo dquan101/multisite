@@ -1,0 +1,61 @@
+@import "../bootstrap/scss/functions";
+@import "../base/functions";
+@import "../base/variables";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+
+// Base
+.link {
+	position: relative;
+	display: inline-block;
+}
+
+.link-active {
+	color: $link-hover-color;
+}
+
+.link-inherit {
+	color: inherit;
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+// Theming
+.link-dark {
+	color: $dark;
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+
+// Link underline
+.link-underline {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+* + .link-underline-1 {
+	margin-top: px-to-rem( 40px * $xs-multiplier );
+}
+
+
+// Media
+@include media-breakpoint-up( lg ) {
+	* + .link-underline-1 {
+		margin-top: px-to-rem( 40px * $lg-multiplier );
+	}
+}
+
+@include media-breakpoint-up( xxl ) {
+	* + .link-underline-1 {
+		margin-top: px-to-rem( 40px );
+	}
+}
