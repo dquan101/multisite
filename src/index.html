@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="components/base/base.css">
     <script src="components/base/core.min.js"></script>
     <script src="components/base/script.js"></script>
+    <script src="components/base/template.js"></script>
   </head>
   <body>
     <div class="page">
@@ -61,15 +62,15 @@
             <div class="col-auto col-xs-8 col-md-6 col-lg-5 col-xl-6"><img src="images/index-01-490x360.jpg" alt="" width="490" height="360"/>
             </div>
             <div class="col-auto col-xs-8 col-md-6 col-xxl-5">
-              <h1>Dr. Courtney Williams</h1>
-              <h3 class="text-primary">Reliable and Affordable Family Doctor</h3>
+              <h1 id="doctorName">Dr. Courtney Williams</h1>
+              <h3 id="doctorSlogan" class="text-primary">Reliable and Affordable Family Doctor</h3>
                     <!-- Blurb-->
                     <article class="blurb blurb-side">
                       <div class="blurb-item">
                         <div class="icon blurb-icon mdi-phone"></div>
                       </div>
                       <div class="blurb-body">
-                        <div class="blurb-title h2"><a href="tel:#">+1 (800) 925-63-24</a></div>
+                        <div class="blurb-title h2" id="doctorPhone"><a id="doctorPhoneAction"  href="tel:#">+1 (800) 925-63-24</a></div>
                         <div class="blurb-text">Call Now and Get a FREE Consultation</div>
                       </div>
                     </article>
