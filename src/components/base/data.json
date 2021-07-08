@@ -1,0 +1,16 @@
+{
+    
+    },
+    "doctorSlogan": {
+        "value": "Medicos de verdad",
+        "type": "innerHTML"
+    },
+    "doctorPhone": {
+        "value": "+502 3386-6530",
+        "type": "innerHTML"
+    },
+    "texto-tel" : {
+        "value": "Tu mama",
+        "type": "innerHTML"
+    }
+}
