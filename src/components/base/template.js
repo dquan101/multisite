@@ -46,7 +46,20 @@ var template_variables = {
     "Service3-Text" : {
         "value" : "Descripción 3",
         "type" : "innerHTML"
-        }
+        },
+    "About-Doctor" : {
+        "value" : "Sobre el Doctor Ejemplo",
+        "type": "innerHTML"
+    },
+    "About-Description" : {
+        "value" : "Descripción ejemplo",
+        "type" : "innerHTML"
+    },
+    "About-Subtitle" : {
+        "value" : "Subtitulo ejemplo, doctor",
+        "type" : "innerHTML"
+    },
+    
 }
 
 
