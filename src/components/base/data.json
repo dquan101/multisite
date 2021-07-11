@@ -1,5 +1,7 @@
 {
-    
+    "doctorName": {
+        "value": "Alejandro Madrazo",
+        "type": "innerHTML"
     },
     "doctorSlogan": {
         "value": "Medicos de verdad",

@@ -46,7 +46,7 @@
               <div class="navbar-subpanel">
                 <div class="navbar-subpanel-item">
                   <div class="navbar-info">
-                    <button class="btn" data-custom-scroll-to="contacts"><span class="btn-icon mdi-book-open"></span><span>Make an Appointment</span></button>
+                    <button class="btn" data-custom-scroll-to="contacts"><span class="btn-icon mdi-book-open"></span><span>Agendar una cita</span></button>
                   </div>
                   <button class="navbar-button navbar-info-button mdi-dots-vertical novi-icon" data-multi-switch='{"targets":".rd-navbar","scope":".rd-navbar","class":"navbar-info-active","isolate":"[data-multi-switch]"}'></button>
                 </div>
@@ -358,8 +358,8 @@
       <!-- Blockquotes-->
       <section class="section-md bg-transparent text-center" id="reviews">
         <div class="container">
-          <h2>What People Say</h2>
-          <p>Take a look at the recent testimonials submitted by our patients</p>
+          <h2>Nuestros testimonios</h2>
+          <p>Mira lo que dicen nuestros pacientes</p>
           <div class="row row-30 text-left">
             <div class="col-sm-6">
                     <!-- Quote-->
@@ -367,24 +367,24 @@
                       <div class="quote-author"><img class="quote-author-img" src="images/person-01-64x64.jpg" alt="" width="64" height="64"/>
                         <div class="quote-author-body">
                           <div class="quote-author-name">
-                            <cite class="quote-cite">Fred Thompson</cite>
+                            <cite class="quote-cite" id="Testimony1-Name">Fred Thompson</cite>
                           </div>
-                          <div class="quote-author-meta">Patient</div>
+                          <div class="quote-author-meta" id="Testimony1-Role">Patient</div>
                         </div>
                       </div>
-                      <q class="quote-text h5">The clinic is looking lovely since it was refurbished last summer, such an improvement. Dr Williams is great, a really sympathetic and understanding doctor. Highly recommended.</q>
+                      <q class="quote-text h5" id="Testimony1-Text">The clinic is looking lovely since it was refurbished last summer, such an improvement. Dr Williams is great, a really sympathetic and understanding doctor. Highly recommended.</q>
                     </blockquote>
                     <!-- Quote-->
                     <blockquote class="quote quote-5">
                       <div class="quote-author"><img class="quote-author-img" src="images/person-02-64x64.jpg" alt="" width="64" height="64"/>
                         <div class="quote-author-body">
                           <div class="quote-author-name">
-                            <cite class="quote-cite">Gloria Jones</cite>
+                            <cite class="quote-cite" id="Testimony2-Name">Gloria Jones</cite>
                           </div>
-                          <div class="quote-author-meta">Patient</div>
+                          <div class="quote-author-meta" id="Testimony2-Role">Patient</div>
                         </div>
                       </div>
-                      <q class="quote-text h5">I went yesterday for an emergency appointment for my eye. The clinic was running late but I was warned as I arrived and didn’t have to wait long. The doctor gave me a thorough examination and I came away reassured and with a prescription and a good understanding of the ongoing treatment.</q>
+                      <q class="quote-text h5" id="Testimony2-Text">I went yesterday for an emergency appointment for my eye. The clinic was running late but I was warned as I arrived and didn’t have to wait long. The doctor gave me a thorough examination and I came away reassured and with a prescription and a good understanding of the ongoing treatment.</q>
                     </blockquote>
             </div>
             <div class="col-sm-6">
@@ -393,36 +393,12 @@
                       <div class="quote-author"><img class="quote-author-img" src="images/person-03-64x64.jpg" alt="" width="64" height="64"/>
                         <div class="quote-author-body">
                           <div class="quote-author-name">
-                            <cite class="quote-cite">Martha Butler</cite>
+                            <cite class="quote-cite" id="Testimony3-Name">Martha Butler</cite>
                           </div>
-                          <div class="quote-author-meta">Patient</div>
+                          <div class="quote-author-meta" id="Testimony3-Role">Patient</div>
                         </div>
                       </div>
-                      <q class="quote-text h5">This was my first consultation, and Dr. Williams was exceedingly professional.</q>
-                    </blockquote>
-                    <!-- Quote-->
-                    <blockquote class="quote quote-5">
-                      <div class="quote-author"><img class="quote-author-img" src="images/person-04-64x64.jpg" alt="" width="64" height="64"/>
-                        <div class="quote-author-body">
-                          <div class="quote-author-name">
-                            <cite class="quote-cite">Linda Sanders</cite>
-                          </div>
-                          <div class="quote-author-meta">Patient</div>
-                        </div>
-                      </div>
-                      <q class="quote-text h5">Thank you so much for fitting us in today, don’t know what we’d have done without you. My daughter is quite timid, but you were  brilliant with her.</q>
-                    </blockquote>
-                    <!-- Quote-->
-                    <blockquote class="quote quote-5">
-                      <div class="quote-author"><img class="quote-author-img" src="images/person-05-64x64.jpg" alt="" width="64" height="64"/>
-                        <div class="quote-author-body">
-                          <div class="quote-author-name">
-                            <cite class="quote-cite">Bruce Price</cite>
-                          </div>
-                          <div class="quote-author-meta">Patient</div>
-                        </div>
-                      </div>
-                      <q class="quote-text h5">Dr. Courtney Williams was so very helpful from the very beginning to my actual appointment.</q>
+                      <q class="quote-text h5" id="Testimony3-Text">This was my first consultation, and Dr. Williams was exceedingly professional.</q>
                     </blockquote>
             </div>
           </div>
@@ -433,55 +409,55 @@
         <div class="container">
           <div class="row row-30 justify-content-center">
             <div class="col-sm-10 col-md-6">
-              <h2>Sign Up for an Appointment with the Doctor Today!</h2>
-              <p>Take some time to fill out the form and get an appointment with an experienced family doctor.</p>
+              <h2>Agenda tu cita con nosotros hoy!</h2>
+              <p>Tómate tu tiempo en agendar una cita con un doctor de familia experimentado</p>
               <div class="divider"></div>
-              <h6>2965  Pine Garden Ln. Nelson, GA 30107</h6>
+              <h6 id="doctorAddress-footer"></h6>
                     <!-- Blurb-->
                     <article class="blurb blurb-side">
                       <div class="blurb-item">
                         <div class="icon blurb-icon mdi-phone"></div>
                       </div>
                       <div class="blurb-body">
-                        <div class="blurb-title h2"><a href="tel:#">+1 (800) 925-63-24</a></div>
-                        <div class="blurb-text">Call Now and Get a FREE Consultation</div>
+                        <div class="blurb-title h2" id="doctorPhone-footer"><a href="tel:#">+1 (800) 925-63-24</a></div>
+                        <div class="blurb-text" id="doctorPhoneText-footer">Call Now and Get a FREE Consultation</div>
                       </div>
                     </article>
               <ul class="list">
-                <li class="list-item">Monday – Friday: 07:00am – 10:00pm</li>
-                <li class="list-item">​​Saturday – Sunday: 08:00am – 08:00pm</li>
-              </ul><a class="link link-underline link-underline-1" href="mailto:#">info@demolink.org</a>
+                <li class="list-item" id="footer-schedule">Monday – Friday: 07:00am – 10:00pm</li>
+                <li class="list-item" id="footer-schedule-weekend">​​Saturday – Sunday: 08:00am – 08:00pm</li>
+              </ul><a class="link link-underline link-underline-1" href="mailto:#" id="footer-contact-email">info@demolink.org</a>
               <div class="social"><a class="icon icon-md icon-link icon-dark mdi-facebook" href="#"></a><a class="icon icon-md icon-link icon-dark mdi-instagram" href="#"></a><a class="icon icon-md icon-link icon-dark mdi-youtube-play" href="#"></a><a class="icon icon-md icon-link icon-dark mdi-twitter" href="#"></a></div>
             </div>
             <div class="col-sm-10 col-md-6">
               <div class="form-box">
-                <h2>Make an Appointment</h2>
+                <h2>Haz tu cita</h2>
                 <form class="rd-form rd-mailform" data-form-output="contact-form" data-form-type="contact" method="post" action="components/rd-mailform/rd-mailform.php">
                   <div class="form-wrap">
-                    <label class="form-label" for="input-name">Your name*</label>
+                    <label class="form-label" for="input-name">Tu nombre*</label>
                     <div class="form-group">
-                      <input class="form-control" id="input-name" type="text" name="name" placeholder="Please enter your name" data-constraints="@Required">
+                      <input class="form-control" id="input-name" type="text" name="name" placeholder="Porfavor ingrese tu nombre" data-constraints="@Required">
                     </div>
                   </div>
                   <div class="form-wrap">
-                    <label class="form-label" for="input-phone">Your phone*</label>
+                    <label class="form-label" for="input-phone">Tu número de teléfono*</label>
                     <div class="form-group">
-                      <input class="form-control" id="input-phone" type="text" name="phone" placeholder="Please enter your phone number" data-constraints="@Numeric @Required">
+                      <input class="form-control" id="input-phone" type="text" name="phone" placeholder="Porfavor ingrese su número de teléfono" data-constraints="@Numeric @Required">
                     </div>
                   </div>
                   <div class="form-wrap">
-                    <label class="form-label" for="input-message">Your message*</label>
+                    <label class="form-label" for="input-message">Tu mensaje*</label>
                     <div class="form-group">
-                      <textarea class="form-control" id="input-message" name="textarea" placeholder="Please enter your message" data-constraints="@Required"></textarea>
+                      <textarea class="form-control" id="input-message" name="textarea" placeholder="Porfavor ingresa tu mensaje" data-constraints="@Required"></textarea>
                     </div>
                   </div>
                         <div class="custom-control custom-checkbox">
                           <input class="custom-control-input" type="checkbox" id="346ocd4koag">
-                          <label class="custom-control-label" for="346ocd4koag"><span>I agree to the </span><a class="link link-dark link-underline" href="#">Terms & Privacy Policy</a><span>. I also agree that I’m over 18 years of age.</span>
+                          <label class="custom-control-label" for="346ocd4koag"><span>Acepto </span><a class="link link-dark link-underline" href="#">los términos y condiciones</a><span>. También acepto que soy mayor de 18 años.</span>
                           </label>
                         </div>
                   <div class="rd-form-btn text-left">
-                    <button class="btn btn-lg btn-block" type="submit">Submit</button>
+                    <button class="btn btn-lg btn-block" type="submit">Enviar</button>
                   </div>
                 </form>
                 <div class="form-output snackbar snackbar-primary" id="contact-form"></div>
