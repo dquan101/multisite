@@ -59,7 +59,172 @@ var template_variables = {
         "value" : "Subtitulo ejemplo, doctor",
         "type" : "innerHTML"
     },
-    
+    "About-List1" : {
+        "value": "Ejemplo utilidad 1",
+        "type" : "innerHTML"
+    },
+    "About-List2" : {
+        "value": "Ejemplo utilidad 2",
+        "type" : "innerHTML"
+    },
+    "Service-Title" : {
+        "value" : "Se ofrecen una lista de servicios medico de ejemplo",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion1" : {
+        "value" : "Consulta General",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion1-Description1" : {
+        "value" : "Aqui va la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion1-Description2" : {
+        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion1-List1" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List2" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List3" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List4" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List5" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List6" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion1-List7" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion2-Description1" : {
+        "value" : "Aqui va la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion2-Description2" : {
+        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion2-List1" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List2" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List3" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List4" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List5" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List6" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion2-List7" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion3-Description1" : {
+        "value" : "Aqui va la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion3-Description2" : {
+        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion3-List1" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List2" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List3" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List4" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List5" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List6" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion3-List7" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion4-Description1" : {
+        "value" : "Aqui va la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion4-Description2" : {
+        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion4-List1" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List2" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List3" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List4" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List5" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List6" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion4-List7" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion5-Description1" : {
+        "value" : "Aqui va la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion5-Description2" : {
+        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion5-List1" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List2" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List3" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List4" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List5" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List6" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },"Service-Accordion5-List7" : {
+        "value" : "Caracteristica de servicio ejemplo",
+        "type" : "innerHTML"
+    },
 }
 
 

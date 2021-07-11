@@ -9,6 +9,7 @@
   "author": "TemplateMonster",
   "license": "UNLICENSED",
   "dependencies": {
+    "firebase-tools": "^9.16.0",
     "tempaw-functions": "2.4.2"
   }
 }
