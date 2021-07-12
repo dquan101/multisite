@@ -19,7 +19,6 @@ var template_variables = {
         "value": "0 calle, zona 9",
         "type": "innerHTML"
     },
-    // SERVICIOS
     "ServicesTitle" : {
         "value" : "Servicios que se ofrecen",
         "type" : "innerHTML"
@@ -72,7 +71,6 @@ var template_variables = {
         "value" : "Se ofrecen una lista de servicios medico de ejemplo",
         "type" : "innerHTML"
     },
-    // ACCORDION
     "Service-Title-Accordion1" : {
         "value" : "Consulta General",
         "type" : "innerHTML"
@@ -227,68 +225,6 @@ var template_variables = {
         "value" : "Caracteristica de servicio ejemplo",
         "type" : "innerHTML"
     },
-    //Testimonios
-    "Testimony1-Name": {
-        "value" : "John Doe",
-        "type" : "innerHTML"
-    },
-    "Testimony1-Role": {
-        "value" : "Paciente",
-        "type" : "innerHTML"
-    },
-    "Testimony1-Text": {
-        "value" : "Excelente servicio de ejemplo!",
-        "type" : "innerHTML"
-    },
-    "Testimony2-Name": {
-        "value" : "Jane Doe",
-        "type" : "innerHTML"
-    },
-    "Testimony2-Role": {
-        "value" : "Paciente",
-        "type" : "innerHTML"
-    },
-    "Testimony2-Text": {
-        "value" : "Excelente servicio de ejemplo! Enfermeras muy capacitadas e informadas",
-        "type" : "innerHTML"
-    },
-    "Testimony3-Name": {
-        "value" : "Thomas Doe",
-        "type" : "innerHTML"
-    },
-    "Testimony3-Role": {
-        "value" : "Paciente",
-        "type" : "innerHTML"
-    },
-    "Testimony3-Text": {
-        "value" : "Excelente servicio de ejemplo! Me atendieron my bien en su clinica. Muy recomendado",
-        "type" : "innerHTML"
-    },
-    // FOOTER
-    "doctorAddress-footer" : {
-        "value": "0 calle, zona 9",
-        "type": "innerHTML"
-    },
-    "doctorPhoneText-footer" : {
-        "value": "Llama y reserva tu consulta",
-        "type": "innerHTML"
-    },
-    "doctorPhone-footer": {
-        "value": "+502 3386-6530",
-        "type": "innerHTML"
-    },
-    "footer-schedule" : {
-        "value" : "Lunes a Viernes, 7 am - 10 pm",
-        "type" : "innerHTML"
-    },
-    "footer-schedule-weekend" : {
-        "value" : "Sábado y Domingo, 10 am - 10 pm",
-        "type" : "innerHTML"
-    },
-    "footer-contact-email" : {
-        "value" : "info@doctor.com",
-        "type" : "innerHTML"
-    }
 }
 
 
