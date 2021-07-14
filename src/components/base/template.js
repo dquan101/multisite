@@ -1,228 +1,247 @@
 var template_variables = {
     "doctorName": {
-        "value": "Alejandro Madrazo",
+        "value": "DR.LUIS LUJÁN LORENZANA",
         "type": "innerHTML"
     },
     "doctorSlogan": {
-        "value": "Medicos de verdad",
+        "value": "CIRUJANO COLOPROCTÓLOGO",
         "type": "innerHTML"
     },
     "doctorPhone": {
-        "value": "+502 3386-6530",
+        "value": "+502 5353 0031",
         "type": "innerHTML"
     },
     "doctorPhoneText" : {
-        "value": "Llama y reserva tu consulta",
+        "value": "Haz tu cita ahora",
         "type": "innerHTML"
     },
     "doctorAddress" : {
-        "value": "0 calle, zona 9",
+        "value": "4 Av. 3-14, Zona 10<br> Ciudad de Guatemala, Guatemala.",
         "type": "innerHTML"
     },
+    // SERVICIOS
     "ServicesTitle" : {
-        "value" : "Servicios que se ofrecen",
+        "value" : "EL MÁXIMO NIVEL DE ATENCIÓN",
         "type" : "innerHTML"
     },
     "Service1" : {
-        "value" : "Pediatría Eficiente",
+        "value" : "Alta Calidad",
         "type" : "innerHTML"
     },
     "Service2" : {
-        "value" : "Enfermeras con experiencia",
+        "value" : "Pacientes Satisfechos",
         "type" : "innerHTML"
     },
     "Service3" : {
-        "value" : "Servicios de Atención Urgente",
+        "value" : "Atención Urgente",
         "type" : "innerHTML"
     },
     "Service1-Text" : {
-        "value" : "Descripción 1",
+        "value" : "No puede esperar nada <br> menos que el máximo nivel de <br> atención cuando se trata de <br> tratamientos y consultas.",
         "type" : "innerHTML"
     },
     "Service2-Text" : {
-        "value" : "Descripción 2",
+        "value" : "La clínica médica brinda <br>atención de calidad para <br> todos los pacientes, mientras<br> se mantiene un ambiente<br>agradable.",
         "type" : "innerHTML"
     },
     "Service3-Text" : {
-        "value" : "Descripción 3",
+        "value" : "Atención rápida y conveniente para<br>enfermedades y lesiones que<br>son de emergencia.",
         "type" : "innerHTML"
         },
     "About-Doctor" : {
-        "value" : "Sobre el Doctor Ejemplo",
+        "value" : "ACERCA DEL DR. LUIS LUJÁN",
         "type": "innerHTML"
     },
     "About-Description" : {
-        "value" : "Descripción ejemplo",
+        "value" : "Como uno de los médicos con más experiencia en Guatemala, el Dr. Luis Luján es el especialista en hemorroides y otras enfermedades del colon, recto y ano. <br><br> Su experiencia profesional le permite brindar el máximo nivel de atención médica a sus pacientes. Por el cual puede esperar un enfoque de alta calidad.",
         "type" : "innerHTML"
     },
     "About-Subtitle" : {
-        "value" : "Subtitulo ejemplo, doctor",
-        "type" : "innerHTML"
-    },
-    "About-List1" : {
-        "value": "Ejemplo utilidad 1",
-        "type" : "innerHTML"
-    },
-    "About-List2" : {
-        "value": "Ejemplo utilidad 2",
+        "value" : "CIRUJANO COLOPROCTÓLOGO",
         "type" : "innerHTML"
     },
     "Service-Title" : {
-        "value" : "Se ofrecen una lista de servicios medico de ejemplo",
+        "value" : "Amplia gama de servicios médicos",
         "type" : "innerHTML"
     },
+    // ACCORDION
     "Service-Title-Accordion1" : {
-        "value" : "Consulta General",
+        "value" : "Enfermedades Anorectales",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion2" : {
+        "value" : "Enfermedades del colon",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion3" : {
+        "value" : "Enfermedades abdominales",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion4" : {
+        "value" : "Atención de urgencias",
+        "type" : "innerHTML"
+    },
+    "Service-Title-Accordion5" : {
+        "value" : "Horarios de servicio",
         "type" : "innerHTML"
     },
     "Service-Title-Accordion1-Description1" : {
-        "value" : "Aqui va la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion1-Description2" : {
-        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "value" : "¿Necesita una consulta sobre su tratamiento o diagnóstico? Siempre estoy listo para brindarle una consulta de atención médica profesional.",
         "type" : "innerHTML"
     },
     "Service-Accordion1-List1" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Hemorroides",
         "type" : "innerHTML"
     },"Service-Accordion1-List2" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Fisuras Anales",
         "type" : "innerHTML"
     },"Service-Accordion1-List3" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Fístulas anales",
         "type" : "innerHTML"
     },"Service-Accordion1-List4" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Abscesos anales",
         "type" : "innerHTML"
     },"Service-Accordion1-List5" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Prurito/Comezón Anal",
         "type" : "innerHTML"
     },"Service-Accordion1-List6" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Prolapso de recto",
         "type" : "innerHTML"
     },"Service-Accordion1-List7" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Icontintinencia fecal",
+        "type" : "innerHTML"
+    },
+    "Service-Accordion1-List8" : {
+        "value" : "Cáncer de ano",
         "type" : "innerHTML"
     },
     "Service-Title-Accordion2-Description1" : {
-        "value" : "Aqui va la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion2-Description2" : {
-        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "value" : "Cuando está enfermo o cuando un diagnóstico rápido puede brindarle tranquilidad, es importante tener acceso rápido a la información sobre su afección.",
         "type" : "innerHTML"
     },
     "Service-Accordion2-List1" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Cáncer de colon y recto",
         "type" : "innerHTML"
     },"Service-Accordion2-List2" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Pólipos de colon y recto",
         "type" : "innerHTML"
     },"Service-Accordion2-List3" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Colon irritable (espástico/nervioso)",
         "type" : "innerHTML"
     },"Service-Accordion2-List4" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Diarrea crónica",
         "type" : "innerHTML"
     },"Service-Accordion2-List5" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Colon irritable (espástico/nervioso)",
         "type" : "innerHTML"
     },"Service-Accordion2-List6" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Colitis ulcerativa",
         "type" : "innerHTML"
     },"Service-Accordion2-List7" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Enfermedad de Crohn",
         "type" : "innerHTML"
     },
     "Service-Title-Accordion3-Description1" : {
-        "value" : "Aqui va la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion3-Description2" : {
-        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "value" : "Cuando está enfermo o cuando un diagnóstico rápido puede brindarle tranquilidad, es importante tener acceso rápido a la información sobre su afección.",
         "type" : "innerHTML"
     },
     "Service-Accordion3-List1" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Cálculos biliares",
         "type" : "innerHTML"
     },"Service-Accordion3-List2" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Apendicitis Aguda",
         "type" : "innerHTML"
     },"Service-Accordion3-List3" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Hernia Inguinal",
         "type" : "innerHTML"
     },"Service-Accordion3-List4" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Hernia Incisional",
         "type" : "innerHTML"
     },"Service-Accordion3-List5" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Hernia Umbilical",
         "type" : "innerHTML"
-    },"Service-Accordion3-List6" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion3-List7" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },
+    },//"Service-Accordion3-List6" : {
+    //    "value" : "Caracteristica de servicio ejemplo",
+    //    "type" : "innerHTML"
+    //},"Service-Accordion3-List7" : {
+    //    "value" : "Caracteristica de servicio ejemplo",
+    //    "type" : "innerHTML"
+    //},
     "Service-Title-Accordion4-Description1" : {
-        "value" : "Aqui va la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion4-Description2" : {
-        "value" : "Aqui va la otra parte de la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Accordion4-List1" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List2" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List3" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List4" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List5" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List6" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },"Service-Accordion4-List7" : {
-        "value" : "Caracteristica de servicio ejemplo",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion5-Description1" : {
-        "value" : "Aqui va la descripcion general del servicio",
-        "type" : "innerHTML"
-    },
-    "Service-Title-Accordion5-Description2" : {
-        "value" : "Aqui va la otra parte de la descripcion general del servicio",
+        "value" : "¿Usted tiene algún problema médico que deba ser atendido de inmediato? Reserve una cita por medio de nuetra web las 27 horas del dñia y los 7 días de la semana.",
         "type" : "innerHTML"
     },
     "Service-Accordion5-List1" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Lunes - Viernes: 07:00 am - 06:00 pm",
         "type" : "innerHTML"
     },"Service-Accordion5-List2" : {
-        "value" : "Caracteristica de servicio ejemplo",
+        "value" : "Sábado - Domingo: 08:00 am - 12:00 pm",
         "type" : "innerHTML"
-    },"Service-Accordion5-List3" : {
-        "value" : "Caracteristica de servicio ejemplo",
+    },
+    //Testimonios
+    "Testimony1-Name": {
+        "value" : "John Doe",
         "type" : "innerHTML"
-    },"Service-Accordion5-List4" : {
-        "value" : "Caracteristica de servicio ejemplo",
+    },
+    "Testimony1-Role": {
+        "value" : "Paciente",
         "type" : "innerHTML"
-    },"Service-Accordion5-List5" : {
-        "value" : "Caracteristica de servicio ejemplo",
+    },
+    "Testimony1-Text": {
+        "value" : "Excelente servicio de ejemplo!",
         "type" : "innerHTML"
-    },"Service-Accordion5-List6" : {
-        "value" : "Caracteristica de servicio ejemplo",
+    },
+    "Testimony2-Name": {
+        "value" : "Jane Doe",
         "type" : "innerHTML"
-    },"Service-Accordion5-List7" : {
-        "value" : "Caracteristica de servicio ejemplo",
+    },
+    "Testimony2-Role": {
+        "value" : "Paciente",
+        "type" : "innerHTML"
+    },
+    "Testimony2-Text": {
+        "value" : "Excelente servicio de ejemplo! Enfermeras muy capacitadas e informadas",
+        "type" : "innerHTML"
+    },
+    "Testimony3-Name": {
+        "value" : "Thomas Doe",
+        "type" : "innerHTML"
+    },
+    "Testimony3-Role": {
+        "value" : "Paciente",
+        "type" : "innerHTML"
+    },
+    "Testimony3-Text": {
+        "value" : "Excelente servicio de ejemplo! Me atendieron my bien en su clinica. Muy recomendado",
+        "type" : "innerHTML"
+    },
+    // FOOTER
+    "doctorAddress-footer" : {
+        "value": "4 Av. 3-14, Zona 10 Ciudad de Guatemala.",
+        "type": "innerHTML"
+    },
+    "doctorPhoneText-footer" : {
+        "value": "Haz tu cita ahora",
+        "type": "innerHTML"
+    },
+    "doctorPhone-footer": {
+        "value": "+502 5353 0031",
+        "type": "innerHTML"
+    },
+    "footer-schedule" : {
+        "value" : "Lunes - Viernes: 07:00 am - 06:00 pm",
+        "type" : "innerHTML"
+    },
+    "footer-schedule-weekend" : {
+        "value" : "Sábado - Domingo: 08:00 am - 12:00 pm",
+        "type" : "innerHTML"
+    },
+    "footer-contact-email" : {
+        "value" : "luislujan@medicoguatemala.com",
+        "type" : "innerHTML"
+    },
+    "footer-slogan" : {
+        "value" : "Tómese su tiempo para completar el formulario y obtener una cita con proctólogo experimentado.",
         "type" : "innerHTML"
     },
 }
